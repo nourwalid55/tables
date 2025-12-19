@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carbon Emissions Report</title>
+    </head>
+    <body>
+
+    
+    <table border="1" id="table2025">
+    <caption>Carbon Emissions Report – 2025 (in Tons of CO₂)</caption>
+    <thead>
+        <tr>
+        <th rowspan="2">Department</th>
+        <th colspan="4">Quarters</th>
+        <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th>Manufacturing</th>
+        <td>120</td>
+        <td>135</td>
+        <td>128</td>
+        <td>140</td>
+        <td>523</td>
+        </tr>
+        <tr>
+        <th>IT Operations</th>
+        <td>60</td>
+        <td>55</td>
+        <td>65</td>
+        <td>70</td>
+        <td>250</td>
+        </tr>
+        <tr>
+        <th>Logistics</th>
+        <td>90</td>
+        <td>95</td>
+        <td>88</td>
+        <td>92</td>
+        <td>365</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <th>Total</th>
+        <td>270</td>
+        <td>285</td>
+        <td>281</td>
+        <td>302</td>
+        <td>1138</td>
+        </tr>
+    </tfoot>
+    </table>
+
+    <br>
+
+    
+    <button onclick="show2026()">Shoe2026 Projection</button>
+
+    <br><br>
+
+    
+    <table border="1" id="table2026" style="display:none;">
+    <caption>Carbon Emissions Report – 2026 (in Tons of CO₂)</caption>
+    <thead>
+        <tr>
+        <th rowspan="2">Department</th>
+        <th colspan="4">Quarters</th>
+        <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th>Manufacturing</th>
+        <td>130</td>
+        <td>145</td>
+        <td>138</td>
+        <td>150</td>
+        <td>563</td>
+        </tr>
+        <tr>
+        <th>IT Operations</th>
+        <td>65</td>
+        <td>60</td>
+        <td>70</td>
+        <td>75</td>
+        <td>270</td>
+        </tr>
+        <tr>
+        <th>Logistics</th>
+        <td>95</td>
+        <td>100</td>
+        <td>93</td>
+        <td>97</td>
+        <td>385</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+        <th>Total</th>
+        <td>290</td>
+        <td>305</td>
+        <td>301</td>
+        <td>322</td>
+        <td>1218</td>
+        </tr>
+    </tfoot>
+    </table>
+
+    <script>
+    function show2026() {
+        document.getElementById('table2025').style.display = 'none';
+        document.getElementById('table2026').style.display = 'table';
+    }
+    </script>
+
+</body>
+</html>
